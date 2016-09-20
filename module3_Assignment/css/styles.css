@@ -1,0 +1,143 @@
+body{
+	background-color: #D0F5A9;
+}
+
+/*Header*/
+#header-nav{
+	background-color: #BDBDBD;
+	border-radius: 0px;
+	border: 2px solid #222;
+}
+
+#header-nav .container{
+	margin-left: 30px;
+
+}
+.navbar-brand{
+	padding: 10px 0px;
+	margin-bottom: 20px;
+
+}
+
+h1{
+	text-align: left;
+	font-size: 1.8em;
+	color: #FAAC58;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: bold;
+	line-height: .9em;
+	margin: 10px -10px 10px;
+}
+
+#nav-list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: 2px solid #222;	
+}
+
+#nav-list li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#nav-list li a{
+	padding: 10px 10px 10px 10px;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight:bold;
+	font-style: italic;
+}
+
+#nav-list li hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-color: #222;
+}
+/*END Header*/
+
+/*Body*/
+h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.menu-chicken, .menu-beef, .menu-sushi{
+	background-color: #F5F6CE;
+	padding: 5px 15px 20px 15px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+/*END Body*/
+/*For other devices*/
+
+/*Medium Devices*/
+@media (min-width:992px) and (max-width: 1199px){
+	/*Header*/
+}
+
+/*Small Devices*/
+@media (min-width:768px) and (max-width: 991px){
+	/*Header*/
+	.navbar-brand{
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+	h1{
+		font-size: 1.6em;
+	}
+	/*END Header*/
+}
+
+/*Extra Small Devices*/
+@media (max-width: 767px)
+{
+	/*Header*/
+	#header-nav .container{
+	margin-left: 0px;
+	}
+	.navbar-brand{
+		padding: 5px 0px 0px 0px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		height: 8vw;
+	}
+	h1{
+		margin-left: 0px;
+		padding-left: 0px;
+		font-size: 5vw;
+	}
+	h2{
+		font-size: 4vw;
+	}
+	/*END Header*/
+}
+
+/*Super Extra Small Devices*/
+@media (max-width: 479px)
+{
+	/*Header*/
+	#header-nav .container{
+	margin-left: 0px;
+	}
+	.navbar-brand{
+		padding: 5px 0px 0px 0px;
+		margin-bottom: 10px;
+		margin-left: 15px;
+		height: 8vw;
+	}
+	h1{
+		padding-left: 0px;
+		font-size: 6vw;
+	}
+	h2{
+		font-size: 5vw;
+	}
+	/*END Header*/
+}
